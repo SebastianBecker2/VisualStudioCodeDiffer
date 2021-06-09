@@ -57,7 +57,7 @@ int main(int argc, const char* argv[])
     return 0;
   }
 
-  std::string params = "--diff ";
+  std::string params = "-n --diff ";
   params += argv[1];
   params += " ";
   params += argv[2];
